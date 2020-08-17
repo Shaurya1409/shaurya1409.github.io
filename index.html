@@ -21,12 +21,12 @@
 						<h1><a href="index.html">Shaurya Srivastava</a></h1>
 						<nav class="links">
 							<ul>
-								<li><a href="#Academics">Academic Background</a></li>
-								<li><a href="#Achievements">Achievements</a></li>
-								<li><a href="#Skills">Skills</a></li>
-								<li><a href="#Projects">Projects</a></li>
-								<li><a href="#Resume">Resume</a></li>
-								<li><a href="#footer">Contact</a></li>
+								<li><a href="#Academics" onclick="toAcadBack()">Academic Background</a></li>
+								<li><a href="#Achievements" onclick="toAchievements()">Achievements</a></li>
+								<li><a href="#Skills" onclick="toSkills()">Skills</a></li>
+								<li><a href="#Projects" onclick="toProjects()">Projects</a></li>
+								<li><a href="#Resume" onclick="toResume()">Resume</a></li>
+								<li><a href="#footer" onclick="toContact()">Contact</a></li>
 							</ul>
 						</nav>
 						<nav class="main">
@@ -44,32 +44,32 @@
 							<section>
 								<ul class="links">
 									<li>
-										<a href="#Academics">
+										<a href="#Academics" onclick="toAcadBack()">
 											<h3>Academic Background</h3>
 										</a>
 									</li>
 									<li>
-										<a href="#Achievements">
+										<a href="#Achievements" onclick="toAchievements()">
 											<h3>Achievements</h3>
 										</a>
 									</li>
 									<li>
-										<a href="#Skills">
+										<a href="#Skills" onclick="toSkills()">
 											<h3>Skills</h3>
 										</a>
 									</li>
 									<li>
-										<a href="#Projects">
+										<a href="#Projects" onclick="toProjects()">
 											<h3>Projects</h3>
 										</a>
 									</li>
 									<li>
-										<a href="#Resume">
+										<a href="#Resume" onclick="toResume()">
 											<h3>Resume</h3>
 										</a>
 									</li>
 									<li>
-										<a href="#footer">
+										<a href="#footer" onclick="toContact()">
 											<h3>Contact</h3>
 										</a>
 									</li>
@@ -86,7 +86,7 @@
 							<article class="post" id="Academics">
 								<header>
 									<div class="title">
-										<h2><a href="#">Academic Background</a></h2>
+										<h2><a>Academic Background</a></h2>
 									</div>
 								</header>
 								<div class="container">
@@ -114,7 +114,7 @@
 						<!-- Post -->
 							<article class="post" id="Projects">
 								<div class="title" style="text-align: center;">
-									<h1><a href="#">Projects</a></h1>
+									<h1><a>Projects</a></h1>
 								</div>
 							</article>
 
@@ -131,7 +131,7 @@
 									</div>
 								</header>
 								<a href="Chatbot.html" class="image featured" onclick="loadPage('Chatbot.html')"><img src="images/Chatbot_Banner.png" alt=""/></a>
-								<p> The aim of this project was to sucessfully automate a part of the career counselling process carreied out by <a href="https://www.admizzionzcampuz.com/">Admizzionz Campuz®.</a> Software Requirements Specification and System Design Documents were drafted also drafted for the same.<br/><br/>
+								<p> The aim of this project was to sucessfully automate a part of the career counselling process carreied out by <a href="https://www.admizzionzcampuz.com/">Admizzionz Campuz®.</a> Software Requirements Specification and System Design Documents were also drafted for the same.<br/><br/>
 									The following technologies were used to develop the chatbot - <br/>
 									• DialogFlow<br/>
 									• Firebase<br/>
@@ -215,7 +215,7 @@
 							<!-- Post -->
 							<article class="post" id="Projects">
 								<div class="title" style="text-align: center;">
-									<h1><a href="#">Projects</a></h1>
+									<h1><a>Projects</a></h1>
 								</div>
 							</article>
 
@@ -223,14 +223,14 @@
 							<article class="post">
 								<header>
 									<div class="title">
-										<h2><a href="#">Post Trade Processing Web Application</a></h2>
+										<h2><a>Post Trade Processing Web Application</a></h2>
 										<p>Internship Project | Publicis Sapient</p>
 									</div>
 									<div class="meta">
 										<time class="published" datetime="2015-10-22">June 2019 - July 2020</time>
 									</div>
 								</header>
-								<a href="#" class="image featured"><img src="images/publicis-sapient.png" alt=""/></a>
+								<a class="image featured"><img src="images/publicis-sapient.png" alt=""/></a>
 								<p>The aim of this project was to create a Spring Web-Application to recieve, process, validate and store trades. The entier application was made with a microservice oriented architecture.<br/><br/>
 									The technolgies used were : <br/>
 									• Java<br/>
@@ -246,22 +246,22 @@
 							<article class="post">
 								<header>
 									<div class="title">
-										<h2><a href="#">Adu Pulli Attam</a></h2>
+										<h2><a href="Adu_Puli_Attam.html" onclick="loadPage('Adu_Puli_Attam.html')">Adu Puli Attam</a></h2>
 										<p>Web Development Project</p>
 									</div>
 									<div class="meta">
 										<time class="published" datetime="2015-10-22">July 2020</time>
 									</div>
 								</header>
-								<a href="#" class="image featured"><img src="images/Goats_Tigers.png" alt=""/></a>
+								<a href="Adu_Puli_Attam.html" class="image featured" onclick="loadPage('Adu_Puli_Attam.html')"><img src="images/Goats_Tigers.png" alt=""/></a>
 								<p>Also known as "Goats & Tigers", Adu Pulli Attam is a strategic two-player board game that originated in Tamil Nadu. 
 									The aim of this project was to make a web application, where two players could play the game against each other<br/><br/>
 									• The application was developed using only HTML CSS and JavaScript (JQuery)
 								</p>
 								<footer>
 									<ul class="actions">
-										<li><a class="button large" onclick="loadPage()">Learn More</a></li>
-										<li><a class="button large" onclick="loadPage()">View Code <span class="icon brands fa-github"></span></a></li>
+										<li><a href="Adu_Puli_Attam.html" class="button large" onclick="loadPage('Adu_Puli_Attam.html')">Learn More</a></li>
+										<li><a href="https://github.com/Shaurya1409/Adu-Pulli-Attam" class="button large">View Code <span class="icon brands fa-github"></span></a></li>
 									</ul>
 								</footer>
 							</article>
@@ -271,21 +271,21 @@
 							<article class="post">
 								<header>
 									<div class="title">
-										<h2><a href="#">NIIT University Website</a></h2>
+										<h2><a href="NU_Website.html" onclick="loadPage('2D_Platformer.html')">NIIT University Website</a></h2>
 										<p>Multi Device Programming Project</p>
 									</div>
 									<div class="meta">
-										<time class="published" datetime="2015-10-22">January 2018 - May 2018</time>
+										<time class="published" datetime="2015-10-22">January 2020 - July 2020</time>
 									</div>
 								</header>
-								<a href="#" class="image featured"><img src="images/NU_Banner.png" alt=""/></a>
+								<a href="NU_Website.html" class="image featured" onclick="loadPage('NU_Website.html')"><img src="images/NU_Banner.png" alt=""/></a>
 								<p>The aim of the project was to create a reimagination of NIIT University's Website in terms of it's design and functionality <br/><br/>
 									• The application was developed using Angular, HTML & CSS
 								</p>
 								<footer>
 									<ul class="actions">
-										<li><a class="button large" onclick="loadPage()">Learn More</a></li>
-										<li><a class="button large" onclick="loadPage()">View Code <span class="icon brands fa-github"></span></a></li>
+										<li><a href="NU_Website.html" class="button large" onclick="loadPage('NU_Website.html')">Learn More</a></li>
+										<li><a href="https://github.com/Shaurya1409/NU-Website" class="button large">View Code <span class="icon brands fa-github"></span></a></li>
 									</ul>
 								</footer>
 							</article>
@@ -295,19 +295,19 @@
 							<article class="post">
 								<header>
 									<div class="title">
-										<h2><a href="#">2D Platformer Using PyGame</a></h2>
+										<h2><a href="2D_Platformer.html">2D Platformer Using PyGame</a></h2>
 										<p>Python Project</p>
 									</div>
 									<div class="meta">
 										<time class="published" datetime="2015-10-22">January 2018 - May 2018</time>
 									</div>
 								</header>
-								<a href="#" class="image featured"><img src="images/Pygame.png" alt=""/></a>
-								<p>Developed a  2D Platformer using PyGame.</p>
+								<a href="2D_Platformer.html" class="image featured" onclick="loadPage('2D_Platformer.html')"><img src="images/Pygame.png" alt=""/></a>
+								<p>Developed a 2D Platformer using PyGame.</p>
 								<footer>
 									<ul class="actions">
-										<li><a class="button large" onclick="loadPage()">Learn More</a></li>
-										<li><a class="button large" onclick="loadPage()">View Code <span class="icon brands fa-github"></span></a></li>
+										<li><a href="2D_Platformer.html" class="button large" onclick="loadPage('2D_Platformer.html')">Learn More</a></li>
+										<li><a href="https://github.com/Shaurya1409/2D-Platformer" class="button large">View Code <span class="icon brands fa-github"></span></a></li>
 									</ul>
 								</footer>
 							</article>
@@ -323,7 +323,7 @@
 							<!-- Post -->
 							<article class="post" id="Projects">
 								<div class="title" style="text-align: center;">
-									<h1><a href="#">Projects</a></h1>
+									<h1><a>Projects</a></h1>
 								</div>
 							</article>
 
@@ -331,18 +331,17 @@
 							<article class="post">
 								<header>
 									<div class="title">
-										<h2><a href="FER.html">Facial Expression Detection and Recognition</a></h2>
+										<h2><a href="FER.html" onclick="loadPage('FER.html')">Facial Expression Detection and Recognition</a></h2>
 										<p>Research and Development Project</p>
 									</div>
 									<div class="meta">
 										<time class="published" datetime="2015-10-22">January 2020 - July 2020</time>
-										<h6>Currently Ongoing</h6>
 									</div>
 								</header>
-								<a href="FER.html" class="image featured"><img src="images/FERProj.jpg" alt="" /></a>
+								<a href="FER.html" class="image featured" onclick="loadPage('FER.html')"><img src="images/FERProj.jpg" alt="" /></a>
 								<p>The aim of the project was to research various methods detecting and recognizing various facial expressions, and to create an application which 
 									could identify a person's facial expression through a webcam feed in real time<br/><br/> 
-									The technolgies being were : <br/>
+									The technolgies used were : <br/>
 									• Python<br/>
 									• OpenCV<br/>
 									• SciKit-Learn<br/> 
@@ -358,14 +357,14 @@
 							<article class="post">
 								<header>
 									<div class="title">
-										<h2><a href="#">BorrowIT!</a></h2>
+										<h2><a>BorrowIT!</a></h2>
 										<p>Java Mobile Application Development</p>
 									</div>
 									<div class="meta">
 										<time class="published" datetime="2015-10-22">Aug 2018 - Dec 2018</time>
 									</div>
 								</header>
-								<a href="#" class="image featured"><img src="images/borrowit.png" alt=""/></a>
+								<a class="image featured"><img src="images/borrowit.png" alt=""/></a>
 								<p>The aim of this project was to create an application which allowed the users to Borrow/Lend everyday items. The application was created using Java and Android Studio</p>
 							</article>
 
@@ -385,7 +384,7 @@
 
 						<!-- Intro -->
 							<section id="intro">
-								<a href="#" class="logo"><img src="images/prof.png" alt="" /></a>
+								<a class="logo"><img src="images/prof.png" alt="" /></a>
 								<header>
 									<h2>Shaurya Srivastava</h2>
 									<p>B.Tech CSE Student (Year IV)<br/>(Data Science Specialization)
@@ -412,46 +411,46 @@
 								<li>
 									<article>
 										<header>
-											<h3><a href="#">Programming Languages</a></h3>
+											<h3><a>Programming Languages</a></h3>
 											<p>Python, Java and R</p>
 										</header>
-										<a href="#" class="image"><img src="images/g1.png" alt="" /></a>
+										<a class="image"><img src="images/g1.png" alt="" /></a>
 									</article>
 								</li>
 								<li>
 									<article>
 										<header>
-											<h3><a href="#">Web Development</a></h3>
+											<h3><a>Web Development</a></h3>
 											<p>HTML, CSS, JavaScript, Django and Flask<p>
 										</header>
-										<a href="#" class="image"><img src="images/g2.png" alt="" /></a>
+										<a class="image"><img src="images/g2.png" alt="" /></a>
 									</article>
 								</li>
 								<li>
 									<article>
 										<header>
-											<h3><a href="#">Database Management Systems</a></h3>
+											<h3><a>Database Management Systems</a></h3>
 											<p>MySQL, SQL Server, MongoDB and Firebase</p> 
 										</header>
-										<a href="#" class="image"><img src="images/g3.png" alt="" /></a>
+										<a class="image"><img src="images/g3.png" alt="" /></a>
 									</article>
 								</li>
 								<li>
 									<article>
 										<header>
-											<h3><a href="#">Graphic Design</a></h3>
+											<h3><a>Graphic Design</a></h3>
 										<p>Adobe Photoshop and Adobe XD(UI Designing)</p>
 										</header>
-										<a href="#" class="image"><img src="images/g4.png" alt="" /></a>
+										<a class="image"><img src="images/g4.png" alt="" /></a>
 									</article>
 								</li>
 								<li>
 									<article>
 										<header>
-											<h3><a href="#">External Libraries and Frameworks</a></h3>
+											<h3><a>External Libraries and Frameworks</a></h3>
 											<p>Pandas, NumPy, SciPy, MatplotLib, SciKit-Learn, JavaFx, Jquery, Angular and Spring Framework</p>
 										</header>
-										<a href="#" class="image"><img src="images/g5.png" alt="" /></a>
+										<a class="image"><img src="images/g5.png" alt="" /></a>
 									</article>
 								</li>
 							</ul>
@@ -466,42 +465,42 @@
 									<!-- Mini Post -->
 										<article class="mini-post">
 											<header>
-												<h3><a href="#">Co-Organizer | TEDxNIITUniversity 2019</a></h3>
+												<h3><a>Co-Organizer | TEDxNIITUniversity 2019</a></h3>
 												<p>Obtained the license for, and sucessfully
 													organized a TEDx Event, i.e
 													TEDxNIITUniversity 2019.
 													</p>
 											</header>
-											<a href="#" class="image"><img src="images/TEDxNIITUniversity_Logo.png" alt="" /></a>
+											<a class="image"><img src="images/TEDxNIITUniversity_Logo.png" alt="" /></a>
 										</article>
 
 									<!-- Mini Post -->
 										<article class="mini-post">
 											<header>
-												<h3><a href="#">Best Project Manager | NanoEPL 2018</a></h3>
+												<h3><a>Best Project Manager | NanoEPL 2018</a></h3>
 												<p>Obtained 'Best Project Manager' in NIIT
 													University's Nano Electronics Premier League
 													organized in association with Erasmus+</p>
 											</header>
-											<a href="#" class="image"><img src="images/ErasmusPlus.jpg" alt="" /></a>
+											<a class="image"><img src="images/ErasmusPlus.jpg" alt="" /></a>
 										</article>
 
 									<!-- Mini Post -->
 										<article class="mini-post">
 											<header>
-												<h3><a href="#">Finalist | Internal Hackathon for SIH 2020</a></h3>
+												<h3><a>Finalist | Internal Hackathon for SIH 2020</a></h3>
 												<p>Finalist in NIIT University's Internal Hackathon for Smart India Hackathon - 2020</p>
 											</header>
-											<a href="#" class="image"><img src="images/sih.png" alt="" /></a>
+											<a class="image"><img src="images/sih.png" alt="" /></a>
 										</article>
 
 									<!-- Mini Post -->
 									<article class="mini-post">
 										<header>
-											<h3><a href="#">Winner 1st Prize | Spardha</a></h3>
+											<h3><a>Winner 1st Prize | Spardha</a></h3>
 											<p>Winner of First Prize worth Rs 50,000 in Spardha, a chatbot development competition organized by Admizzionz Campuz</p>
 										</header>
-										<a href="#" class="image"><img src="images/ACZ.png" alt="" /></a>
+										<a class="image"><img src="images/ACZ.png" alt="" /></a>
 									</article>
 
 									<!-- Mini Post -->
